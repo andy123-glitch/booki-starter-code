@@ -1,12 +1,12 @@
 /****** General ***********/
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 :root {
-    --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
+    --main-color: #0065fc;
+    --main-bg-color: #f2f2f2;
+    --filter-bg-color: #deebff;
 }
 
 .fa-solid {
@@ -16,6 +16,8 @@
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin: 0;
 }
 
 .main-container {
@@ -55,7 +57,7 @@ a {
 }
 
 .neutral-star {
-    color: var(--main-bg-color)
+    color: var(--main-bg-color);
 }
 
 /****** Hebergements And Populaires ***********/
@@ -121,9 +123,6 @@ a {
     margin-bottom: 5px;
 }
 
-
-
-
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -165,3 +164,69 @@ a {
 @media (max-width: 767.98px) {
     /* ... */
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 61px;
+    padding: 30px 50px;
+    height: 19px;
+    margin-left: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 69px;
+    align-items: flex-end;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 35px;
+}
+
+
+
+header {display: flex;flex-direction: column;gap: 35px;}
+
+.location {
+    display: flex;
+    align-items: center;
+    height: 49px;
+    width: 377px;
+    background-color: #F2F2F2;
+    border-bottom-left-radius
+Defines the radii of the bottom left outer border edge.
+
+Widely available across major browsers (Baseline since January 2018)
+Learn more
+
+Don't show: 15px;
+    border-top-left-radius: 15px;';
+    border-bottom-left-radius
+Defines the radii of the bottom left outer border edge.
+
+Widely available across major browsers (Baseline since January 2018)
+Learn more
+
+Don't show: 15px;
+    border-top-left-radius: 15px;';
+    border-bottom-left-radius: 15;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+i.fa-solid.fa-location-dot {
+    width: 50px;
+    text-align: center;
+    height: auto;
+}
+
+input#location {
+    border: none;
+    width: 191px;
+    height: 41px;
+}
+
+.location button {font-size: 18px;height: 49px;width: 132px;color: white;border-top-right-radius: 15px;border-bottom-right-radius: 15px;font-weight: 700;background-color: #0065FC;border: 1px #0065FC solid;}
