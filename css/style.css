@@ -184,18 +184,32 @@ a {
         width: 30%;
     }
 
-    .populaires-cards .card-title {
+    .populaires-cards .card-title,
+    .card-txt h3,
+    .activity-cards .card p {
         font-size: 14px;
     }
 
-    .populaires-cards .card-subtitle {
+    .populaires-cards .card-subtitle,
+    .card-txt p {
         font-size: 13px;
     }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-links {
+        padding-bottom: 15px;
+        border-bottom: #f2f2f2 solid 2px;
+    }
+    .location button::after {
+        content: image-set("C:\\Users\\andy.azerot\\Downloads\\magnifying-glass-solid.svg");
+    }
 }
 
 /************* Navigateur liens *************/
@@ -293,6 +307,8 @@ input#location {
 .filtre p {
     font-weight: 700;
     font-size: 18px;
+    position: relative;
+    bottom: 4px;
 }
 
 .information {
@@ -313,6 +329,10 @@ i.fa-solid.fa-info {
 .information p {
     font-weight: 400;
     font-size: 16px;
+}
+
+.filtre button:hover {
+    background-color: #deebff;
 }
 
 /*********************Footer *******************/
