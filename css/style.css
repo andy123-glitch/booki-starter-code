@@ -214,6 +214,19 @@ input#location {
     border: none;
     width: 191px;
     height: 43px;
+    font-weight: 700;
+    font-size: 1.2em;
+
+}
+input::placeholder {
+color: black;
+opacity: 1; /* For Firefox */
+}
+::-webkit-input-placeholder { /* Chrome, Safari, Opera */
+color: black;
+}
+::-ms-input-placeholder { /* Edge */
+color: black;
 }
 
 .location button {
