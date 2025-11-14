@@ -508,34 +508,5 @@ h3 {
         padding: 25px 30px;
     }
 
-    section#activity {
-margin-top: 0;
-}
-
-    form{
-        width: 100%;
-    }
-
-    .location{
-        max-width: 100%;
-
-    }
-    input#location{
-        flex: 1;
-    }
-
-
-    .filtre button{
-        flex:1;
-        font-size: 0.99em;
-        height: 50px;
-    }
-
-    .filtre p{
-        margin: 0;
-    }
-
-    .information p{
-        margin: 0;
-    }
+    
 }
