@@ -44,6 +44,12 @@
     .activity-cards a .card img {
         height: 200px;
     }
+    .filtre h3{
+        
+    }
+    .activity-cards a .card {
+    height: 100%;
+}
 }
 
 /************************* Small devices (phones, less than 768px) */
@@ -183,4 +189,12 @@
     .footer-box {
         padding: 25px 30px;
     }
+
+    i.fa-solid.fa-location-dot{
+        padding: 0;
+    }
+
+    .activity-cards a .card {
+    height: unset;
+}
 }
