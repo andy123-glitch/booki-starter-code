@@ -47,6 +47,7 @@
     .filtre {
         flex-direction: column;
         justify-content: flex-start;
+        height: auto;
     }
     .filtre h3{
         align-self: start;
