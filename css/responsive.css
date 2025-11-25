@@ -84,8 +84,8 @@
         padding-top: 0;
     }
 
-    .hebergements > p{
-    margin-top: 15px;
+    .hebergements > p {
+        margin-top: 15px;
     }
     .nav-links {
         width: 100%;
@@ -96,7 +96,6 @@
     }
     .nav-links a {
         padding-bottom: 15px;
-        border-top: white solid 2px;
         border-bottom: var(--main-bg-color) solid 2px;
         flex: 1;
         text-align: center;
@@ -105,6 +104,7 @@
     .link-hebergements-and-populaires:hover,
     .link-activity:hover {
         border-top: unset;
+
         color: #0065fc;
         border-bottom: #0065fc 2px solid;
         padding-top: unset;
