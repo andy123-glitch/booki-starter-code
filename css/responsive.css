@@ -24,6 +24,7 @@
 
     .populaires-cards a {
         width: 30%;
+        padding-top: 0;
     }
 
     .populaires-cards .card-title,
@@ -37,9 +38,9 @@
         font-size: 13px;
     }
 
-    .activity-cards a  {
-    height: 270px;
-}
+    .activity-cards a {
+        height: 270px;
+    }
 
     .activity-cards a .card img {
         height: 200px;
@@ -49,21 +50,26 @@
         justify-content: flex-start;
 
         height: auto;
-
     }
-    .filtre h3{
+    .filtre h3 {
         align-self: start;
     }
-    .filter-btn button{
+    .filter-btn button {
         height: 50px;
     }
     .activity-cards a .card {
-    height: 100%;
-}
+        height: 100%;
+    }
 }
 
 /************************* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    h1 {
+        font-size: 1.4em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
     nav {
         flex-direction: column;
         align-items: center;
@@ -76,6 +82,10 @@
 
     a {
         padding-top: 0;
+    }
+
+    .hebergements > p{
+    margin-top: 15px;
     }
     .nav-links {
         width: 100%;
@@ -94,15 +104,16 @@
 
     .link-hebergements-and-populaires:hover,
     .link-activity:hover {
-        border-top: white 2px solid;
+        border-top: unset;
         color: #0065fc;
         border-bottom: #0065fc 2px solid;
+        padding-top: unset;
     }
 
     .main-container {
         padding: 0;
     }
-    .filtre{
+    .filtre {
         height: auto;
     }
 
@@ -117,7 +128,7 @@
         font-size: 0.9em;
     }
 
-    .filtre button i{
+    .filtre button i {
         font-size: 1.4em;
     }
 
@@ -171,12 +182,12 @@
     }
     .location button {
         width: 50px;
+        height: 51px;
     }
 
-    input#location{
+    input#location {
         flex: 1;
     }
-
 
     .search-button {
         display: none;
@@ -185,7 +196,7 @@
         flex-direction: column;
     }
 
-    .activity-cards a  {
+    .activity-cards a {
         width: auto;
     }
 
@@ -197,11 +208,14 @@
         padding: 25px 30px;
     }
 
-    i.fa-solid.fa-location-dot{
+    i.fa-solid.fa-location-dot {
         padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .activity-cards a .card {
-    height: unset;
-}
+        height: unset;
+    }
 }

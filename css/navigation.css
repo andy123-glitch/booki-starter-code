@@ -24,5 +24,6 @@ nav img {
 .link-activity:hover {
     border-top: #0065fc 2px solid;
     color: #0065fc;
+    padding-top: 12px;
 }
 
