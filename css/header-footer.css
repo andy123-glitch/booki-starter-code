@@ -20,10 +20,12 @@ i.fa-solid.fa-location-dot {
     width: 50px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
-    text-align: center;
     padding: 0px 10px;
     color: black;
     background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
 }
 
@@ -57,7 +59,7 @@ input::placeholder {
     font-weight: 700;
     background-color: #0065fc;
     border: 1px #0065fc solid;
-    padding:0px 16px;
+    padding: 0px 16px;
 }
 
 .filtre {
@@ -68,9 +70,9 @@ input::placeholder {
 }
 
 .filter-btn {
-display: flex;
-flex-direction: row;
-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .filtre button {
@@ -79,7 +81,7 @@ gap: 10px;
     padding: 4px 19px;
     border-radius: 25px;
     background-color: white;
-gap: 10px;
+    gap: 10px;
     font-size: 1.1em;
     font-weight: 700;
     align-items: center;
@@ -121,8 +123,6 @@ i.fa-solid.fa-info {
 .glass-button i {
     color: white;
 }
-
-
 
 /*********************Footer *******************/
 
