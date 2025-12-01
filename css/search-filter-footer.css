@@ -1,6 +1,6 @@
-/************* Header *************/
+/************* search and filter *************/
 
-header {
+.search-filter {
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -64,7 +64,6 @@ input::placeholder {
 
 .filtre {
     display: flex;
-    height: 50px;
     gap: 15px;
     flex-direction: row;
 }
@@ -86,9 +85,10 @@ input::placeholder {
     font-weight: 700;
     align-items: center;
     justify-content: center;
+    height: 50px;
 }
 
-.filtre h3 {
+.filtre h2 {
     font-size: 1.1em;
     align-self: center;
 }
@@ -136,4 +136,9 @@ footer {
 .footer-box {
     flex: 1;
     padding: 20px;
+    line-height: 2.5;
+}
+
+.footer-box a {
+    padding-top: 0;
 }
