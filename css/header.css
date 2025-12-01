@@ -1,5 +1,5 @@
 /************* Navigateur liens *************/
-nav {
+header {
     width: 100%;
     max-width: 1460px;
     box-sizing: border-box;
@@ -8,13 +8,13 @@ nav {
     justify-content: space-between;
 }
 
-nav img {
+header img {
     width: 61px;
     padding: 30px 50px;
     height: 19px;
 }
 
-.nav-links {
+nav {
     display: flex;
     gap: 69px;
     padding-right: 50px;
