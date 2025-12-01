@@ -139,6 +139,11 @@ footer {
     line-height: 2.5;
 }
 
+
+.footer-box h2 {
+    margin: 0;
+}
+
 .footer-box a {
     padding-top: 0;
 }
