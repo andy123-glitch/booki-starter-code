@@ -1,4 +1,3 @@
-```md
 # 🏨 Booki – Projet Front-End
 
 ## 👨‍💻 À propos
