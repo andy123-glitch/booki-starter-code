@@ -7,18 +7,20 @@ Ce projet met l’accent sur le **responsive design**, la **structure sémantiqu
 
 ---
 
-## Disponibilité - 🚀 Recherche de stage
+## 🚀 Recherche de stage
 
 Dans le cadre de ma formation en développement web, je suis à la recherche d’un **stage de fin de formation**.
 
 **Disponibilité :**  
-📆 Fin mars → mi-juin  
+📆 Fin mars 2025 → mi-juin 2025  
 💻 Développement Web (Front-End / Full-Stack)  
 📍 Présentiel (France) ou télétravail 
+📧 Contact : andy.azerot@gmail.com
+
 Ce stage me permettra de consolider mes compétences techniques et de contribuer concrètement à des projets professionnels.
 
-
 ---
+
 
 ## 🧠 Compétences démontrées
 
@@ -51,6 +53,8 @@ L’interface s’adapte parfaitement aux différents écrans :
 
 ## 📂 Architecture du projet
 
+```
+
 booki/
 │
 ├── index.html
@@ -58,7 +62,9 @@ booki/
 │ └── style.css
 ├── images/
 │ └── assets visuels optimisés
-└── README.md
+└── README.md                    
+
+````
 
 ---
 
@@ -76,11 +82,14 @@ booki/
 
 ```bash
 git clone https://github.com/andy123-glitch/booki.git
+````
+
 Puis ouvrir index.html dans votre navigateur.
 
-👤 Auteur
-Andy
-En formation de développeur Web 
-
 🔗 GitHub : https://github.com/andy123-glitch
-📧 Contact : andy.azerot@gmail.com
+
+
+
+
+
+
